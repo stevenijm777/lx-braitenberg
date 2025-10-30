@@ -119,8 +119,8 @@ def posneg(value, max_value=None, skim=0, nan_color=(0.5, 0.5, 0.5), zero_color=
 
 @dataclass
 class BraitenbergAgentConfig:
-    gain: float = 0.5
-    const: float = 0.1
+    gain: float = 0.3
+    const: float = 0.3
 
 
 class BraitenbergAgent:
